@@ -1,0 +1,91 @@
+baseURL: "https://peren.gouv.fr/"
+title: "PEReN"
+description: "L'expertise de la science des données au service de la régulation numérique"
+theme: "design-system-gouvfr"
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+params:
+  images:
+    - img/opengraph.png
+
+module:
+    mounts:
+    - source: "themes/design-system-gouvfr/node_modules/@gouvfr/design-system/dist"
+      target: "static/design-system-gouvfr/"
+
+defaultContentLanguage: fr
+languages:
+  en:
+    languageCode: "en-GB"
+    contentDir: content/english
+    languageName: English
+    weight: 10
+    menu:
+      main:
+        - identifier: "accueil"
+          name: "Home"
+          title: "Home"
+          url: ""
+          weight: 80
+
+        - identifier: "equipe"
+          name: "Who are we?"
+          title: "Who are we?"
+          url: "equipe/"
+          weight: 90
+
+        - identifier: "projets"
+          name: "Projects"
+          title: "Projects"
+          url: "projets/"
+          weight: 100
+
+        - identifier: "recrutement"
+          name: "We are hiring!"
+          title: "We are hiring!"
+          url: "recrutement/"
+          weight: 110
+
+        - identifier: "contact"
+          name: "Contact"
+          title: "Contact"
+          url: "contact/"
+          weight: 120
+  fr:
+    languageCode: "fr-FR"
+    contentDir: content/french
+    languageName: Français
+    weight: 20
+    menu:
+      main:
+      - identifier: "accueil"
+        name: "Accueil"
+        title: "Accueil"
+        url: ""
+        weight: 80
+
+      - identifier: "equipe"
+        name: "Qui sommes-nous ?"
+        title: "Qui sommes-nous ?"
+        url: "equipe/"
+        weight: 90
+
+      - identifier: "projets"
+        name: "Les projets du PEReN"
+        title: "Les projets du PEReN"
+        url: "projets/"
+        weight: 100
+
+      - identifier: "recrutement"
+        name: "Recrutement"
+        title: "Recrutement"
+        url: "recrutement/"
+        weight: 110
+
+      - identifier: "contact"
+        name: "Contact"
+        title: "Contact"
+        url: "/contact/"
+        weight: 120
