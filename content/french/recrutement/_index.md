@@ -15,16 +15,6 @@ Nous publions régulièrement sur cette page les nouvelles offres disponibles.
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Ingénieur(e) data scientist" alt="Ingénieur(e) data scientist" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://www.passerelles.economie.gouv.fr/offre-de-emploi/emploi-ingenieur-data-scientist-sen-peren-154-h-f_4093.aspx">Ingénieur(e) <em lang="en">data scientist</em></a></h4>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
                 <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" titre="Développeur / Développeuse front" alt="Développeur / Développeuse front" />
             </div>
             <div class="fr-tile__body">
