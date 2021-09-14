@@ -129,7 +129,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Joris Duguépéroux</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Formation :</strong> PhD in computer science, ENS Rennes & Economotrics and statistics, Rennes 1/ENSAI.
+                    <strong>Formation :</strong> PhD in computer science, ENS Rennes & Econometrics and statistics, Rennes 1/ENSAI.
                 </p>
             </div>
         </div>
