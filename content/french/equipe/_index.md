@@ -114,7 +114,7 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
             </div>
         </div>
     </div>
-    <div class="fr-col-xs-6 fr-col-lg-3">
+    <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile">
             <div class="fr-tile__img">
                 <img src="Gaspard.png" class="fr-responsive-img" title="Gaspard Defréville" alt="Gaspard Defréville" />
