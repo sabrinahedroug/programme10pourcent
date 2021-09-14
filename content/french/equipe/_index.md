@@ -129,6 +129,20 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
         </div>
     </div>
     <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile">
+            <div class="fr-tile__img">
+                <img src="Joris.png" class="fr-responsive-img" title="Joris Duguépéroux" alt="Joris Duguépéroux" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">Joris Duguépéroux</h4>
+                <p class="fr-tile__desc center">
+                    <strong><em lang="en">Data scientist</em></strong><br>
+                    <strong>Formation :</strong> Docteur en informatique, ENS Rennes & Économétrie et statistiques, Rennes 1/ENSAI.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
                 <img src="Tom.png" class="fr-responsive-img" title="Tom Houriez" alt="Tom Houriez" />
