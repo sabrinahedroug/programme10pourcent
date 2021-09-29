@@ -26,16 +26,6 @@ We regularly upload new offers as positions become available.
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="NLP data scientist" alt="NLP data scientist" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://www.passerelles.economie.gouv.fr/offre-de-emploi/emploi-specialiste-en-traitement-automatique-du-langage-et-ia-nlp-data-scientist-sen-peren-157-h-f_4208.aspx">NLP data scientist</a></h4>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
                 <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Computer Vision data scientist" alt="Computer Vision data scientist" />
             </div>
             <div class="fr-tile__body">
