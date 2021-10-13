@@ -1,6 +1,6 @@
 ---
 title: "Focus on : interoperability"
-date: 2021-10-08T17:17:00+02:00
+date: 2021-10-13T14:24:00+02:00
 summary: Through the "Focus on" series of article, PEReN proposes elements of technical analysis on a wide variety of topics related to the regulation of online digital platforms. In this first article, PEReN discusses the notion of interoperability and the forms and degrees this notion can cover.
 images:
 - /img/undraw_connection_b38q.svg

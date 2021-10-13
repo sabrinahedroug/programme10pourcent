@@ -1,6 +1,6 @@
 ---
 title: "Éclairage sur : l'interopérabilité"
-date: 2021-10-08T17:07:00+02:00
+date: 2021-10-13T14:24:00+02:00
 summary: À travers la série « Éclairage sur », le PEReN propose des éléments d’analyse techniques sur des sujets ou des notions en lien avec la régulation des plateformes numériques. Dans ce premier cahier, le PEReN détaille la question des formes (modèles et degrés) que peut prendre l’interopérabilité.
 images:
 - /img/undraw_connection_b38q.svg
