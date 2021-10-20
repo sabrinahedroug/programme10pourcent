@@ -51,8 +51,8 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Nicolas Deffieux</h4>
                 <p class="fr-tile__desc center">
                     <strong>Director</strong><br>
-                    <strong>Before PEReN :</strong> Director of economic affairs at the ARCEP, Rapporteur Général Adjoint at the Autorité de la Concurrence.<br>
-                    <strong>Formation :</strong> ESSEC, civil administrator.
+                    <strong>Before PEReN:</strong> Director of economic affairs at the ARCEP, Rapporteur Général Adjoint at the Autorité de la Concurrence.<br>
+                    <strong>Formation:</strong> ESSEC, civil administrator.
             </div>
         </div>
     </div>
@@ -65,8 +65,8 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Florent Laboy</h4>
                 <p class="fr-tile__desc center">
                     <strong>Deputy director</strong><br>
-                    <strong>Avant le PEReN :</strong> Counsellor at the chambre régionale des comptes, data and methods director at the Cour des comptes.<br>
-                    <strong>Formation :</strong> ESSEC, ENA.
+                    <strong>Avant le PEReN:</strong> Counsellor at the chambre régionale des comptes, data and methods director at the Cour des comptes.<br>
+                    <strong>Formation:</strong> ESSEC, ENA.
                 </p>
             </div>
         </div>
@@ -79,14 +79,13 @@ Additionally, PEReN is actively involved in the field of personal data protectio
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Samuel.png" class="fr-responsive-img" titre="Samuel Bizien-Filippi" alt="Samuel Bizien-Filippi" />
+                <img src="Victor.png" class="fr-responsive-img" title="Victor Amblard" alt="Victor Amblard" />
             </div>
             <div class="fr-tile__body">
-                <h4 class="fr-tile__title">Samuel Bizien-Filippi</h4>
+                <h4 class="fr-tile__title">Victor Amblard</h4>
                 <p class="fr-tile__desc center">
-                    <strong>System administrator</strong><br>
-                    <strong>Before PEReN :</strong> System administrator.<br>
-                    <strong>Formation :</strong> Computer science and social science, ENS Ulm.
+                    <strong>Data scientist</strong><br>
+                    <strong>Formation:</strong> Mines ParisTech.
                 </p>
             </div>
         </div>
@@ -94,14 +93,29 @@ Additionally, PEReN is actively involved in the field of personal data protectio
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="guillaume.png" class="fr-responsive-img" titre="Guillaume Chaslot" alt="Guillaume Chaslot" />
+                <img src="Samuel.png" class="fr-responsive-img" title="Samuel Bizien-Filippi" alt="Samuel Bizien-Filippi" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">Samuel Bizien-Filippi</h4>
+                <p class="fr-tile__desc center">
+                    <strong>System administrator</strong><br>
+                    <strong>Before PEReN:</strong> System administrator.<br>
+                    <strong>Formation:</strong> Computer science and social science, ENS Ulm.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
+                <img src="guillaume.png" class="fr-responsive-img" title="Guillaume Chaslot" alt="Guillaume Chaslot" />
             </div>
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Guillaume Chaslot</h4>
                 <p class="fr-tile__desc center">
                     <strong>Senior scientific expert in datascience and IA</strong><br>
-                    <strong>Before PEReN :</strong> Data scientist at Microsoft, Google and Mozilla.<br>
-                    <strong>Formation :</strong> Ecole centrale de Lille, PhD in computer science.
+                    <strong>Before PEReN:</strong> Data scientist at Microsoft, Google and Mozilla.<br>
+                    <strong>Formation:</strong> Ecole centrale de Lille, PhD in computer science.
                 </p>
             </div>
         </div>
@@ -115,7 +129,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Gaspard Defréville</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Formation :</strong> Ecole Polytechnique, Mines ParisTech.
+                    <strong>Formation:</strong> Ecole Polytechnique, Mines ParisTech.
                 </p>
             </div>
         </div>
@@ -129,7 +143,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Joris Duguépéroux</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Formation :</strong> PhD in computer science, ENS Rennes & Econometrics and statistics, Rennes 1/ENSAI.
+                    <strong>Formation:</strong> PhD in computer science, ENS Rennes & Econometrics and statistics, Rennes 1/ENSAI.
                 </p>
             </div>
         </div>
@@ -142,7 +156,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Tom Houriez</h4>
                 <p class="fr-tile__desc center"><strong class="inline-center">Data scientist</strong><br>
-                <strong>Formation  :</strong> Corps des Ingénieurs de l’Industrie et des Mines.</p>
+                <strong>Formation:</strong> Corps des Ingénieurs de l’Industrie et des Mines.</p>
             </div>
         </div>
     </div>
@@ -155,7 +169,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Antoine Ménand</h4>
                 <p class="fr-tile__desc center">
                     <strong>Developer</strong><br>
-                    <strong>Formation :</strong> Télécom Paris, Université Paris-Dauphine.
+                    <strong>Formation:</strong> Télécom Paris, Université Paris-Dauphine.
                 </p>
             </div>
         </div>
@@ -169,8 +183,23 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Delphine Picot</h4>
                 <p class="fr-tile__desc center">
                     <strong>Developer</strong><br>
-                    <strong>Before PEReN :</strong> Digital projects leader.<br>
-                    <strong>Formation :</strong> PhD in molecular modelisation, corps des Ingénieurs de l’Industrie et des Mines.
+                    <strong>Before PEReN:</strong> Digital projects leader.<br>
+                    <strong>Formation:</strong> PhD in molecular modelisation, corps des Ingénieurs de l’Industrie et des Mines.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
+                <img src="Francois.png" class="fr-responsive-img" title="François Role" alt="François Role" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">François Role</h4>
+                <p class="fr-tile__desc center">
+                    <strong>NLP and AI expert</strong><br>
+                    <strong>Before PEReN:</strong> Researcher in machine-learning at <span lang="fr">Université de Paris</span>.<br>
+                    <strong>Formation:</strong> PhD in computer science.
                 </p>
             </div>
         </div>
@@ -184,8 +213,8 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Nicolas Rolin</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Before PEReN :</strong> Data scientist in the financial sector.<br>
-                    <strong>Formation :</strong> PhD in computer science, ENS Cachan.
+                    <strong>Before PEReN:</strong> Data scientist in the financial sector.<br>
+                    <strong>Formation:</strong> PhD in computer science, ENS Cachan.
                 </p>
             </div>
         </div>
@@ -199,8 +228,8 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Denis Rousselle</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Before PEReN :</strong> Military industry, ad-tech start-up, big data in the Ministry of Armies.<br>
-                    <strong>Formation :</strong> PhD in machine learning and image processing, corps des Ingénieurs de l’Industrie et des Mines.
+                    <strong>Before PEReN:</strong> Military industry, ad-tech start-up, big data in the Ministry of Armies.<br>
+                    <strong>Formation:</strong> PhD in machine learning and image processing, corps des Ingénieurs de l’Industrie et des Mines.
                 </p>
             </div>
         </div>
@@ -214,7 +243,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Lucas Serrano</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Formation :</strong> PhD in computer science, ENS Cachan.
+                    <strong>Formation:</strong> PhD in computer science, ENS Cachan.
                 </p>
             </div>
         </div>
@@ -228,8 +257,8 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Lucas Verney</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Before PEReN :</strong> Research (Inria / Yale) and start-up of the deep-tech.<br>
-                    <strong>Formation :</strong> PhD in quantum computer science, ENS Ulm.
+                    <strong>Before PEReN:</strong> Research (Inria / Yale) and start-up of the deep-tech.<br>
+                    <strong>Formation:</strong> PhD in quantum computer science, ENS Ulm.
                 </p>
             </div>
         </div>
@@ -237,14 +266,14 @@ Additionally, PEReN is actively involved in the field of personal data protectio
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Leo.png" class="fr-responsive-img" titre="Léo Wanty" alt="Léo Wanty" />
+                <img src="Leo.png" class="fr-responsive-img" title="Léo Wanty" alt="Léo Wanty" />
             </div>
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Léo Wanty</h4>
                 <p class="fr-tile__desc center">
                     <strong>Data scientist</strong><br>
-                    <strong>Before PEReN :</strong> Data scientist consultant.<br>
-                    <strong>Formation :</strong> Econometrics and statistics, TSE.
+                    <strong>Before PEReN:</strong> Data scientist consultant.<br>
+                    <strong>Formation:</strong> Econometrics and statistics, TSE.
                 </p>
             </div>
         </div>
@@ -257,7 +286,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Quentin Deltour</h4>
                 <p class="fr-tile__desc center"><strong class="inline-center">Intern</strong><br>
-                <strong>Formation :</strong> ENS Paris-Saclay, ENSAE.</p>
+                <strong>Formation:</strong> ENS Paris-Saclay, ENSAE.</p>
             </div>
         </div>
     </div>

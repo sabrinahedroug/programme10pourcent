@@ -87,7 +87,21 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Samuel.png" class="fr-responsive-img"titre="Samuel Bizien-Filippi" alt="Samuel Bizien-Filippi" />
+                <img src="Victor.png" class="fr-responsive-img" title="Victor Amblard" alt="Victor Amblard" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">Victor Amblard</h4>
+                <p class="fr-tile__desc center">
+                    <strong><em lang="en">Data scientist</em></strong><br>
+                    <strong>Formation :</strong> Mines ParisTech.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
+                <img src="Samuel.png" class="fr-responsive-img" title="Samuel Bizien-Filippi" alt="Samuel Bizien-Filippi" />
             </div>
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Samuel Bizien-Filippi</h4>
@@ -102,7 +116,7 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="guillaume.png" class="fr-responsive-img" titre="Guillaume Chaslot" alt="Guillaume Chaslot" />
+                <img src="guillaume.png" class="fr-responsive-img" title="Guillaume Chaslot" alt="Guillaume Chaslot" />
             </div>
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Guillaume Chaslot</h4>
@@ -186,6 +200,21 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
+                <img src="Francois.png" class="fr-responsive-img" title="François Role" alt="François Role" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">François Role</h4>
+                <p class="fr-tile__desc center">
+                    <strong>Expert en <em lang="en">NLP</em> et IA</strong><br>
+                    <strong>Avant le PEReN :</strong> Enseignant-chercheur en <em lang="en">machine-learning</em> à l'Université de Paris.<br>
+                    <strong>Formation :</strong> Docteur en informatique.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
                 <img src="NicolasR.png" class="fr-responsive-img" title="Nicolas Rolin" alt="Nicolas Rolin" />
             </div>
             <div class="fr-tile__body">
@@ -245,7 +274,7 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Leo.png" class="fr-responsive-img" titre="Léo Wanty" alt="Léo Wanty" />
+                <img src="Leo.png" class="fr-responsive-img" title="Léo Wanty" alt="Léo Wanty" />
             </div>
             <div class="fr-tile__body">
                 <h4 class="fr-tile__title">Léo Wanty</h4>
