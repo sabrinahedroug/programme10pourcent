@@ -36,6 +36,12 @@ languages:
           url: "equipe/"
           weight: 90
 
+        - identifier: "actualites"
+          name: "News"
+          title: "News"
+          url: "actualites/"
+          weight: 95
+
         - identifier: "projets"
           name: "Projects"
           title: "Projects"
@@ -71,6 +77,12 @@ languages:
         title: "Qui sommes-nous ?"
         url: "equipe/"
         weight: 90
+
+      - identifier: "actualites"
+        name: "Actualités"
+        title: "Actualités"
+        url: "actualites/"
+        weight: 95
 
       - identifier: "projets"
         name: "Les projets du PEReN"
