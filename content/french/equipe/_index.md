@@ -289,20 +289,6 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Quentin.png" class="fr-responsive-img" title="Quentin Deltour" alt="Quentin Deltour" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title">Quentin Deltour</h4>
-                <p class="fr-tile__desc center">
-                    <strong>Stagiaire</strong><br>
-                    <strong>Formation :</strong> ENS Paris-Saclay, ENSAE.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
                 <img src="undraw_interview_rmcf.svg" class="fr-responsive-img" title="Le PEReN recrute !" alt="Le PEReN recrute !" />
             </div>
             <div class="fr-tile__body">
