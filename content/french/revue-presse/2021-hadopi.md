@@ -10,4 +10,4 @@ La loi n°2021-1382 relative à la régulation et à la protection de l’accès
 
 Dans le cadre des travaux préparatoires à la mise en œuvre de ces nouvelles missions, l’Hadopi a souhaité réaliser une analyse préalable de l’offre et de la demande de vidéos proposées par YouTube, l’un des principaux fournisseurs de service de partage de contenus utilisés en France. Elle s'est associée au Pôle d’Expertise de la Régulation Numérique (PEReN) pour mener ces  travaux. Dans le cadre de cette collaboration, le PEReN a réalisé l’intégralité de la présente étude dans le champ défini par l’Hadopi dans le cadre de la gestion du projet.
 
-L'article de présentation de l'étude ainsi que le rapport complet sont disponibles à [cette adresse](https://hadopi.fr/ressources/etudes/travaux-prealables-mission-evaluation-mesures-techniques-protections-oeuvres-fournisseurs-services-partage-contenus).
+<p class="center"><a href="https://hadopi.fr/ressources/etudes/travaux-prealables-mission-evaluation-mesures-techniques-protections-oeuvres-fournisseurs-services-partage-contenus"><button class="fr-btn">Accéder à la publication</button></a>
