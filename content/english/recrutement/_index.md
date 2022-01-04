@@ -26,10 +26,20 @@ We regularly upload new offers as positions become available.
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Computer Vision data scientist" alt="Computer Vision data scientist" />
+                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Senior data-scientist" alt="Senior data-scientist" />
             </div>
             <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://www.passerelles.economie.gouv.fr/offre-de-emploi/emploi-specialiste-en-traitement-de-l-image-et-ia-computer-vision-data-scientist-sen-peren-156-h-f_4207.aspx">Computer Vision data scientist</a></h4>
+                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://passerelles.economie.gouv.fr/offre-de-emploi/emploi-data-scientist-confirme-sen-peren-106-h-f_5373.aspx">Senior data-scientist</a></h4>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
+                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Senior data-scientist" alt="Senior data-scientist" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://passerelles.economie.gouv.fr/offre-de-emploi/emploi-data-scientist-confirme-sen-peren-156-h-f_5372.aspx">Senior data-scientist</a></h4>
             </div>
         </div>
     </div>
