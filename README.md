@@ -4,6 +4,7 @@ Site du PEReN
 ## Installation
 
 ```bash
+cd themes/design-system-gouvfr && npm i && cd ../../
 cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
 ```
 
