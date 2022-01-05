@@ -108,6 +108,21 @@ Additionally, PEReN is actively involved in the field of personal data protectio
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
+                <img src="Caroline.png" class="fr-responsive-img" title="Caroline Borel" alt="Caroline Borel" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">Caroline Borel</h4>
+                <p class="fr-tile__desc center">
+                    <strong>Communication and facilitation officer</strong><br>
+                    <strong>Before PEReN:</strong> Communication officer at CNRS and CRE, head of Hcéres communication department.<br>
+                    <strong>Formation:</strong> Master's degree in management science, IAE Gustave Eiffel.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
                 <img src="guillaume.png" class="fr-responsive-img" title="Guillaume Chaslot" alt="Guillaume Chaslot" />
             </div>
             <div class="fr-tile__body">
