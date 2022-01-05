@@ -101,21 +101,6 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
     <div class="fr-col-6 fr-col-lg-3">
         <div class="fr-tile fr-enlarge-link">
             <div class="fr-tile__img">
-                <img src="Caroline.png" class="fr-responsive-img" title="Caroline Borel" alt="Caroline Borel" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title">Caroline Borel</h4>
-                <p class="fr-tile__desc center">
-                    <strong>Chargée de mission communication et animation</strong><br>
-                    <strong>Avant le PEReN :</strong> Chargée de communication au CNRS et à la CRE, responsable communication au Hcéres.<br>
-                    <strong>Formation :</strong> Maitrise en sciences de gestion, IAE Gustave Eiffel.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
                 <img src="Samuel.png" class="fr-responsive-img" title="Samuel Bizien-Filippi" alt="Samuel Bizien-Filippi" />
             </div>
             <div class="fr-tile__body">
@@ -124,6 +109,21 @@ Par ailleurs, le PEReN est activement investi dans la protection des données pe
                     <strong>Administrateur systèmes</strong><br>
                     <strong>Avant le PEReN :</strong> Administrateur systèmes.<br>
                     <strong>Formation :</strong> Informatique & sciences sociales, ENS Ulm.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="fr-col-6 fr-col-lg-3">
+        <div class="fr-tile fr-enlarge-link">
+            <div class="fr-tile__img">
+                <img src="Caroline.png" class="fr-responsive-img" title="Caroline Borel" alt="Caroline Borel" />
+            </div>
+            <div class="fr-tile__body">
+                <h4 class="fr-tile__title">Caroline Borel</h4>
+                <p class="fr-tile__desc center">
+                    <strong>Chargée de mission communication et animation</strong><br>
+                    <strong>Avant le PEReN :</strong> Chargée de communication au CNRS et à la CRE, responsable communication au Hcéres.<br>
+                    <strong>Formation :</strong> Maitrise en sciences de gestion, IAE Gustave Eiffel.
                 </p>
             </div>
         </div>
