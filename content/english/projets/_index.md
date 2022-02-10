@@ -14,7 +14,7 @@ Most of the projects on which PEReN is working are partly or completely confiden
 
 ### Construction of an API to smooth the implementation of the ELAN law
 
-Due to the French [ELAN][1] law, tourist accommodation rental platforms are bound to share location-related information with municipalities. PEReN has developed a web interface so that collecting and processing this data becomes simpler for all stakeholders. For example, it allows municipalities to easily check whether a main residence is rented for more than 120 days a year. The API of this project is currently being tested in a few cities, with the cooperation of several rental platforms.
+Due to the French [ELAN][1] law, tourist accommodation rental platforms are bound to share location-related information with municipalities. PEReN has developed a web interface so that collecting and processing this data becomes simpler for all stakeholders. For example, it allows municipalities to easily check whether a main residence is rented for more than 120 days a year. The API of this project is currently being tested in a few cities, with the cooperation of several rental platforms. Find more information on the [project's website][12].
 
 <figure class="fr-content-media fr-content-media--sm">
     <div class="fr-content-media__img">
@@ -97,3 +97,4 @@ Several digital platforms have announced the end of third-party cookies and thei
 [9]: https://gdpr.eu/
 [10]: https://www.amf-france.org/fr/actualites-publications/actualites/gamestop-mania-retour-sur-un-phenomene-de-marche
 [11]: https://www.amf-france.org/fr
+[12]: https://meubles.peren.fr/

@@ -15,7 +15,7 @@ La plupart des projets dans lesquels le PEReN travaille sont de nature confident
 ### Construction d’une API pour faciliter la mise en place de la loi ELAN
 
 
-La [loi ELAN][1] impose aux plateformes de location de meublés touristiques de communiquer certaines informations aux communes. Afin de faciliter la collecte et le traitement de ces données, le PEReN développe une interface web pour la [DGE][7] qui permet par exemple aux communes de vérifier facilement si une résidence principale est louée plus de 120 jours par an. L’API de ce projet est actuellement en expérimentation dans quelques villes, avec la coopération de plusieurs plateformes de location.
+La [loi ELAN][1] impose aux plateformes de location de meublés touristiques de communiquer certaines informations aux communes. Afin de faciliter la collecte et le traitement de ces données, le PEReN développe une interface web pour la [DGE][7] qui permet par exemple aux communes de vérifier facilement si une résidence principale est louée plus de 120 jours par an. L’API de ce projet est actuellement en expérimentation dans quelques villes, avec la coopération de plusieurs plateformes de location. Plus d'informations sont disponibles sur le [site de présentation du projet][12].
 
 <figure class="fr-content-media fr-content-media--sm">
     <div class="fr-content-media__img">
@@ -96,3 +96,4 @@ Plusieurs plateformes numériques ont annoncé la disparition des cookies tiers 
 [9]: https://www.cnil.fr/fr/comprendre-le-rgpd
 [10]: https://www.amf-france.org/fr/actualites-publications/actualites/gamestop-mania-retour-sur-un-phenomene-de-marche
 [11]: https://www.amf-france.org/fr
+[12]: https://meubles.peren.fr/
