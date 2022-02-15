@@ -39,7 +39,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
 
 ## Our team
 
-### Direction
+### Board
 
 <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-my-0">
     <div class="fr-col-6 fr-col-lg-3">
