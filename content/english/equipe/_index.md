@@ -65,7 +65,7 @@ Additionally, PEReN is actively involved in the field of personal data protectio
                 <h4 class="fr-tile__title">Florent Laboy</h4>
                 <p class="fr-tile__desc center">
                     <strong>Deputy director</strong><br>
-                    <strong>Avant le PEReN:</strong> Counsellor at the chambre régionale des comptes, data and methods director at the Cour des comptes.<br>
+                    <strong>Before PEReN:</strong> Counsellor at the chambre régionale des comptes, data and methods director at the Cour des comptes.<br>
                     <strong>Formation:</strong> ESSEC, ENA.
                 </p>
             </div>
