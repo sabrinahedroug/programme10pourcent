@@ -6,7 +6,7 @@ description: "Find out who we are !"
 PEReN is placed under the joint authority of the French Ministers of Economy, Culture and Digital Technology. Its missions and organisation are outlined in the [decree of the 31st of August, 2020][3].
 
 
-## 1.	Our mission
+## Our mission
 
 Today, understanding data and its environment is an imperative to understand how digital platforms work, and set or adapt their regulation. PEReN was created to answer this need and form a centre of expertise in data science that can provide technical support and guidance to state administrations in need.
 
