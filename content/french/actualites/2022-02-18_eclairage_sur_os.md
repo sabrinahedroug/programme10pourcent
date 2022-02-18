@@ -14,6 +14,6 @@ Ce mode de diffusion restreint est aujourd’hui remis en cause par plusieurs r�
 
 Que sont les logiciels malveillants, comment se diffusent-ils, comment s’en protéger ? Comment assurer la sécurité des utilisateurs tout en leur offrant un éventail de choix plus large en matière d’applications ? Dans ce n°2 d’Éclairage sur…le PEReN apporte des éléments de réponse.
 
-<p class="center">{{% link "rapports/2021-10-08 - Eclairage-sur-interoperabilite.pdf" %}}<button class="fr-btn">Télécharger l’Éclairage sur… Applications mobiles : quels enjeux de sécurité pour leur distribution hors des magasins des OS ?</button>{{% /link %}}
+<p class="center">{{% link "rapports/2022-02-18 - Eclairage-sur-ouverture-os_FR.pdf" %}}<button class="fr-btn">Télécharger l’Éclairage sur… Applications mobiles : quels enjeux de sécurité pour leur distribution hors des magasins des OS ?</button>{{% /link %}}
 
 Ce fichier peut ne pas être adapté à des utilisateurs de technologies d'assistance, vous pouvez nous en [demander une version accessible](https://www.peren.gouv.fr/contact/) dans ce cas.
