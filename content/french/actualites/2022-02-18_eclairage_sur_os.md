@@ -1,12 +1,12 @@
 ---
 title: "Éclairage sur…n°2 // Applications mobiles : quels enjeux de sécurité pour leur distribution hors des magasins des OS ?"
 date: 2022-02-18T18:00:00+02:00
-summary: La diffusion des applications mobiles était jusqu’à présent presqu’exclusivement opérée par les magasins dédiés des systèmes d’exploitation des terminaux, et ce à leurs conditions. Ces modalités sont en passe d’évoluer sous la pression des éditeurs, d’une part, et à la faveur d’évolutions réglementaires nationales et internationales en préparation, d’autre part. Dans le n°2 de sa série « Éclairage sur… », le PEReN fait le point sur les enjeux techniques de sécurité liés à cette ouverture, notamment pour les utilisateurs.
+summary: La diffusion des applications mobiles était jusqu’à présent presque exclusivement opérée par les magasins dédiés des systèmes d’exploitation des terminaux, et ce à leurs conditions. Ces modalités sont en passe d’évoluer sous la pression des éditeurs, d’une part, et à la faveur d’évolutions réglementaires nationales et internationales en préparation, d’autre part. Dans le n°2 de sa série « Éclairage sur… », le PEReN fait le point sur les enjeux techniques de sécurité liés à cette ouverture, notamment pour les utilisateurs.
 images:
 - /img/undraw_connection_b38q.svg
 ---
 
-_La diffusion des applications mobiles était jusqu’à présent presqu’exclusivement opérée par les magasins dédiés des systèmes d’exploitation des terminaux, et ce à leurs conditions. Ces modalités sont en passe d’évoluer sous la pression des éditeurs, d’une part, et à la faveur d’évolutions réglementaires nationales et internationales en préparation, d’autre part. Dans le n°2 de sa série « Éclairage sur… », le PEReN fait le point sur les enjeux techniques de sécurité liés à cette ouverture, notamment pour les utilisateurs._
+_La diffusion des applications mobiles était jusqu’à présent presque exclusivement opérée par les magasins dédiés des systèmes d’exploitation des terminaux, et ce à leurs conditions. Ces modalités sont en passe d’évoluer sous la pression des éditeurs, d’une part, et à la faveur d’évolutions réglementaires nationales et internationales en préparation, d’autre part. Dans le n°2 de sa série « Éclairage sur… », le PEReN fait le point sur les enjeux techniques de sécurité liés à cette ouverture, notamment pour les utilisateurs._
 
 La démocratisation des smartphones s'est accompagnée de changements radicaux sur la manière d'installer nos applications. D'un modèle décentralisé et ouvert, avec des téléchargements depuis des sites tiers sur nos ordinateurs, nous sommes passés sur nos smartphones à un modèle centralisé et parfois fermé, où l'installation d'applications se fait souvent, et dans certains cas exclusivement, depuis le magasin d'applications du développeur du système d’exploitation.
 
