@@ -1,12 +1,9 @@
 ---
-title: "Recrutement"
-description: Les offres de postes à pourvoir au PEReN !
+title: "Participer"
+description: Participer au programme
 ---
 
-Vous avez envie de mettre vos compétences dans le numérique au service de l’intérêt général et de rejoindre une équipe en pleine croissance ? Le PEReN recrute !
-
-Nous publions régulièrement sur cette page les nouvelles offres disponibles.
-
+Vous avez envie de participer au programme, rejoignez nous.
 
 
 ## Nos offres en cours

@@ -8,13 +8,7 @@
             </div>
             <div class="fr-footer__content">
                 <p class="fr-footer__content-desc">
-                    {{ if eq .Site.Language.Lang "fr" }}
-                    Le PEReN fournit un appui aux services de l’État ayant des compétences
-                    de régulation des plateformes numériques, et s’investit dans des projets de recherche en science des
-                    données à caractère exploratoire ou scientifique.
-                    {{ else }}
-                    PEReN provides support to state services that have digital platform regulatory powers, and conducts research projects in data science of an exploratory or scientific nature.
-                    {{ end }}
+                    Etalab est un département de la DINUM.
                 </p>
                 <ul class="fr-footer__content-list">
                     <li class="fr-footer__content-item">
@@ -48,7 +42,7 @@
                 </li>
             </ul>
             <div class="fr-footer__bottom-copy">
-                <p>© PEReN 2021</p>
+                <p>© Etalab 2022</p>
             </div>
         </div>
     </div>
@@ -61,29 +55,5 @@
 (function () {
     var ATTag = new ATInternet.Tracker.Tag({disableCookie: true});
     ATTag.page.send({name:'{{ .Title }}'});
-})();
-</script>
-<script type="text/javascript">
-(function () {
-    function showDevToolsMessage() {
-        console.log('%c______ ___________     _   _ ', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c| ___ \\  ___| ___ \\   | \\ | |', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c| |_/ / |__ | |_/ /___|  \\| |', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c|  __/|  __||    // _ \\ . ` |', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c| |   | |___| |\\ \\  __/ |\\  |', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c\\_|   \\____/\\_| \\_\\___\\_| \\_/', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        console.log('%c                             ', "font-family: Monospace; color: #000091; white-space: pre; font-size: 10pt;")
-        {{ if eq .Site.Language.Lang "fr" }}
-        console.log('Vous pourriez travailler pour le PEReN !');
-        console.log('Nous recrutons, offres de postes sur {{ "recrutement/" | absLangURL }}.');
-        {{ else }}
-        console.log('You could work for the PEReN!');
-        console.log("We're hiring, job offers at {{ "recrutement/" | absLangURL }}.");
-        {{ end }}
-    }
-    if (window.devtools.isOpen) {
-        showDevToolsMessage();
-    }
-    window.addEventListener('devtoolschange', showDevToolsMessage);
 })();
 </script>

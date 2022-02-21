@@ -1,6 +1,6 @@
-baseURL: "https://peren.gouv.fr/"
-title: "PEReN"
-description: "L'expertise de la science des données au service de la régulation numérique"
+baseURL: "10pourcent.etalab.studio"
+title: "Programme 10%"
+description: "Programme de collaboration des data scientists de l'Etat"
 theme: "design-system-gouvfr"
 markup:
   goldmark:
@@ -73,8 +73,8 @@ languages:
         weight: 80
 
       - identifier: "equipe"
-        name: "Qui sommes-nous ?"
-        title: "Qui sommes-nous ?"
+        name: "Participants"
+        title: "Participants"
         url: "equipe/"
         weight: 90
 
@@ -85,14 +85,14 @@ languages:
         weight: 95
 
       - identifier: "projets"
-        name: "Les projets du PEReN"
-        title: "Les projets du PEReN"
+        name: "Les projets 10%"
+        title: "Les projets 10%"
         url: "projets/"
         weight: 100
 
       - identifier: "recrutement"
-        name: "Recrutement"
-        title: "Recrutement"
+        name: "Participer"
+        title: "Participer"
         url: "recrutement/"
         weight: 110
 

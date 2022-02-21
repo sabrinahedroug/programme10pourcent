@@ -2,36 +2,8 @@
 <main id="homepage">
     <div class="main">
         <h2 class="catch-phrase">
-            {{ if eq .Site.Language.Lang "fr" }}
-            L'expertise de la science des données au service de la régulation numérique.
-            {{ else }}
-            Digital platform expertise for the public
-            {{ end }}
-
+            Un programme de collaboration entre data scientists de l'Etat.
             </h2>
-
-        <div class="revue-presse fr-card fr-card--horizontal">
-            <div class="fr-card__body">
-                <h4 class="fr-card__lead" style="margin: 0;">
-                    <span class="inline-center">
-                        {{ if eq .Site.Language.Lang "fr" }}
-                        Presse
-                        {{ else }}
-                        Press
-                        {{ end }}
-                    </span>
-                </h4>
-                {{ range (where .Site.Pages "Section" "revue-presse" | first 2) }}
-                            <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }}</p>
-                            <div class="fr-highlight">
-                                <p class="fr-card__desc"><a href="{{ .Permalink }}">{{ .Params.Summary | markdownify }}</a></p>
-                            </div>
-                {{ end }}
-            </div>
-            <div class="fr-card__img no-pointer">
-                <img src="./revue-presse/undraw_newspaper_k72w.svg" title="Revue de presse" alt="Illustration revue de presse" aria-hidden="true" role="presentation">
-            </div>
-        </div>
 
         {{ range $index, $element := (where .Site.Pages "Section" "actualites" | first 2) }}
             <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
