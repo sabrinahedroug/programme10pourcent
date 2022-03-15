@@ -20,3 +20,7 @@ $ hugo serve
 ```
 
 * Ouvrir dans un navigateur le lien : http://localhost:1313/
+
+## Licence
+
+Le contenu du site est publié sous [licence ouverte](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf) 
