@@ -24,6 +24,11 @@ jobs:
           hugo-version: '0.91.2'
           # extended: true
 
+      - name: Prepare build
+        run: |
+          cd themes/design-system-gouvfr && npm install && cd ../../
+          cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
+
       - name: Build
         run: hugo --minify
 
