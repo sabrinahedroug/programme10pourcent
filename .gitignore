@@ -2,3 +2,4 @@ hugo
 public
 static/design-system-gouvfr
 *.swp
+.hugo_build.lock
