@@ -30,7 +30,7 @@ jobs:
           cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify -b https://programme10pourcent.etalab.studio
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
