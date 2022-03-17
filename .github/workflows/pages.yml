@@ -3,8 +3,8 @@ name: Build Pages
 on:
   push:
     branches:
-      # FIXME: change to main
-      - add-ci  # Set a branch to deploy
+      - main  # Set a branch to deploy
+    pull-request:
 
 jobs:
   deploy:
@@ -28,7 +28,8 @@ jobs:
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ github.ref == 'refs/heads/main' }}
+        # FIXME: change to main
+        if: ${{ github.ref == 'refs/heads/add-ci' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
