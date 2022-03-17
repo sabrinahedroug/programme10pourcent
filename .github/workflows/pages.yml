@@ -3,7 +3,8 @@ name: Build Pages
 on:
   push:
     branches:
-      - master  # Set a branch to deploy
+      # FIXME: change to master
+      - add-ci  # Set a branch to deploy
     pull-request:
 
 jobs:
