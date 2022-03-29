@@ -227,7 +227,7 @@ description: "Découvrez les participants"
                 <img src="undraw_interview_rmcf.svg" class="fr-responsive-img" title="Le PEReN recrute !" alt="Le PEReN recrute !" />
             </div>
             <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="{{< ref "/recrutement" >}}">Peut-être vous ?</a></h4>
+                <h4 class="fr-tile__title"><a class="fr-tile__link" href="{{< ref "/participer" >}}">Peut-être vous ?</a></h4>
                 <p class="fr-tile__desc center"><strong>Offres disponibles par vagues successives en 2021 !</strong></p>
             </div>
         </div>

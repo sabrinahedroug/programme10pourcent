@@ -48,10 +48,10 @@ languages:
           url: "projets/"
           weight: 100
 
-        - identifier: "recrutement"
+        - identifier: "participer"
           name: "We are hiring!"
           title: "We are hiring!"
-          url: "recrutement/"
+          url: "participer/"
           weight: 110
 
         - identifier: "contact"
@@ -90,10 +90,10 @@ languages:
         url: "projets/"
         weight: 100
 
-      - identifier: "recrutement"
+      - identifier: "participer"
         name: "Participer"
         title: "Participer"
-        url: "recrutement/"
+        url: "participer/"
         weight: 110
 
       - identifier: "contact"

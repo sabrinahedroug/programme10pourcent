@@ -4,13 +4,10 @@ title: "Mentions légales"
 
 ## Identification de l'éditeur
 
-<p style="text-indent: 0; padding-left: 1.5rem;">Pôle d'Expertise de la Régulation Numérique<br>
-120, rue de Bercy<br>
-Bâtiment Necker<br>
-Télédoc 767<br>
-75572 PARIS CEDEX 12</p>
+<p style="text-indent: 0; padding-left: 1.5rem;">Etalab - DINUM<br>
+20 avenue de Ségur, 75007 Paris<br>
 
-La conception éditoriale, le suivi, la maintenance technique et les mises à jour du site internet peren.gouv.fr sont assurés par le PEReN.
+La conception éditoriale, le suivi, la maintenance technique et les mises à jour du site internet sont assurées par Etalab.
 
 Le PEReN est un service à compétence nationale placé sous l'autorité conjointe des ministres chargés de l'économie, de la communication et du numérique et administrativement rattaché à la Direction Générale des Entreprises, en application du [décret n°2020-1102](https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042297154/) du 31 août 2020.
 
