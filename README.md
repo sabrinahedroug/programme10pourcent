@@ -9,7 +9,17 @@ C'est un site statique utilisant le générateur de site statique [Hugo](https:/
 
 ## Installation
 
-* Voir les [instructions d'installation de Hugo](https://gohugo.io/getting-started/installing/).
+* Installer hugo : voir les [instructions d'installation de Hugo](https://gohugo.io/getting-started/installing/).
+* Installer node : voir les [instructions d'insatllation](https://lesbricodeurs.fr/articles/Comment-installer-npm-proprement/). 
+
+Puis lancer les commandes suivantes: 
+
+```
+$ git clone git@github.com:etalab-ia/programme10pourcent.git
+$ cd programme10pourcent/
+$ cd themes/design-system-gouvfr && npm i && cd ../../
+$ cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
+```
 
 ## Générer le site
 

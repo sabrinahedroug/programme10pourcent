@@ -1,0 +1,42 @@
+name: Build Pages
+
+on:
+  push:
+    branches:
+      # FIXME: change to master
+      - add-ci  # Set a branch to deploy
+    pull-request:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-20.04
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: true  # Fetch Hugo themes (true OR recursive)
+          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.91.2'
+          # extended: true
+
+      - name: Prepare build
+        run: |
+          cd themes/design-system-gouvfr && npm install && cd ../../
+          cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
+
+      - name: Build
+        run: hugo --minify -b https://programme10pourcent.etalab.studio
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        # FIXME: change to main
+        if: ${{ github.ref == 'refs/heads/add-ci' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: pages
