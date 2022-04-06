@@ -17,17 +17,13 @@
                     <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
                     <p class="fr-card__detail center">
                         <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                            {{ if eq .Site.Language.Lang "fr" }}
                             Lire la suite
-                            {{ else }}
-                            Read more
-                            {{ end }}
                         </a>
                     </p>
                 </div>
                 <div class="fr-card__img no-pointer">
-                    <img src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
-                        title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
+                    <img src=![](/content/french/visuel_programme_10_pourcent.png)
+                        title="{{ .Title }}" alt="" aria-hidden="true" role="presentation">
                 </div>
             </div>
         {{ end }}
@@ -36,20 +32,12 @@
             <div class="fr-card__body">
                 <h4 class="fr-card__lead">
                     <a href="./projets/" class="fr-card__link">
-                        {{ if eq .Site.Language.Lang "fr" }}
-                        Les projets du PEReN
-                        {{ else }}
-                        Our projects
-                        {{ end }}
+                        Les projets
                     </a>
                 </h4>
                 <div class="fr-highlight">
                     <p class="fr-card__desc">
-                        {{ if eq .Site.Language.Lang "fr" }}
-                        Le PEReN, dans le cadre de ses fonctions d’appui aux services d’Etat ayant pour compétence la régulation du numérique, travaille sur une vingtaine de projets…
-                        {{ else }}
-                        PEReN, through the assistance it provides to different administrations, is currently working on around 20 projects...
-                        {{ end }}
+                        xxxx
                     </p>
                 </div>
                 <p class="fr-card__desc center">
