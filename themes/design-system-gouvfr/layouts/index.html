@@ -5,227 +5,97 @@
             Un programme de collaboration entre data scientists de l'Etat.
             </h2>
 
-        {{ range $index, $element := (where .Site.Pages "Section" "actualites" | first 2) }}
-            <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
-                <div class="fr-card__body">
-                    <h4 class="fr-card__lead" style="margin-top: 0;">
-                        <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
-                    </h4>
-                    <div class="fr-highlight">
-                        <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
+        {{ range $index, $element := (where .Site.Pages "Section" "actualites")}}
+             {{ range where .Pages "Title" "!=" "actualites" }}
+                <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
+                    <div class="fr-card__body">
+                        <h4 class="fr-card__lead" style="margin-top: 0;">
+                            <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
+                        </h4>
+                        <div class="fr-highlight">
+                            <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
+                        </div>
+                        <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} {{ .CurrentSection.Title }}</p>
+                        <p class="fr-card__detail center">
+                            <a href="./actualites/{{ .Params.slug }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                                Lire la suite
+                            </a>
+                        </p>
                     </div>
-                    <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
-                    <p class="fr-card__detail center">
-                        <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                            Lire la suite
-                        </a>
-                    </p>
+                    <div class="fr-card__img no-pointer">
+                        <img src="{{ .Site.BaseURL }}/img/visuel_programme_10_pourcent.png" title="illustration" alt="illustration" aria-hidden="true" role="presentation">
+                    </div>
                 </div>
-                <div class="fr-card__img no-pointer">
-                    <img src=![](/content/french/visuel_programme_10_pourcent.png)
-                        title="{{ .Title }}" alt="" aria-hidden="true" role="presentation">
-                </div>
-            </div>
+            {{ end }}
         {{ end }}
 
-        <div class="fr-card fr-card--horizontal l-row-reverse">
-            <div class="fr-card__body">
-                <h4 class="fr-card__lead">
-                    <a href="./projets/" class="fr-card__link">
-                        Les projets
-                    </a>
-                </h4>
-                <div class="fr-highlight">
-                    <p class="fr-card__desc">
-                        xxxx
+
+            <div class="fr-card fr-card--horizontal">
+                <div class="fr-card__body">
+                    <h4 class="fr-card__lead">
+                        <a href="./projets/" class="fr-card__link">
+                            Les projets
+                        </a>
+                    </h4>
+                    <div class="fr-highlight">
+                        <p class="fr-card__desc">
+
+                        </p>
+                    </div>
+                    <p class="fr-card__desc center">
+                        <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                            Découvrir les projets
+                        </a>
                     </p>
+            </div>
+                <div class="fr-card__img no-pointer">
+                    <img src="{{ .Site.BaseURL }}/img/undraw_projects.svg" title="Projets" alt="Illustration des projets" aria-hidden="true" role="presentation">
                 </div>
-                <p class="fr-card__desc center">
-                    <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                        {{ if eq .Site.Language.Lang "fr" }}
-                        Découvrir les projets
-                        {{ else }}
-                        See more about our projects
-                        {{ end }}
-                    </a>
-                </p>
             </div>
-            <div class="fr-card__img no-pointer">
-                <img src="{{ .Site.BaseURL }}/img/undraw_projects.svg" title="Projets" alt="Illustration des projets" aria-hidden="true" role="presentation">
-            </div>
-        </div>
+
 
 
         <div class="partenaires fr-px-3w">
             <h2 class="fr-pt-3w fr-ml-0 fr-mt-0">
-                {{ if eq .Site.Language.Lang "fr" }}
                 Nos partenaires
-                {{ else }}
-                Our partners
-                {{ end }}
             </h2>
-
-            <div class="fr-container fr-px-0">
-                <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center fr-my-0">
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/adlc.svg" class="fr-responsive-img" alt="Logo Autorité de la concurrence" title="Autorité de la concurrence">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.autoritedelaconcurrence.fr">Autorité de la concurrence</a>
-                                </h4>
-                            </div>
+            <div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center">
+                <div class="fr-col-6 fr-col-lg-3">
+                    <div class="fr-tile fr-enlarge-link">
+                        <div class="fr-tile__img">
+                            <img src="{{ .Site.BaseURL }}/partenaires/cnil.svg" class="fr-responsive-img" alt="Logo CNIL" title="CNIL">
+                        </div>
+                        <div class="fr-tile__body">
+                            <h4 class="fr-tile__title">
+                                <a class="fr-tile__link" href="https://www.cnil.fr/">Commission Nationale de l'Informatique et des Libertés</a>
+                            </h4>
                         </div>
                     </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/arcom.png" class="fr-responsive-img" alt="Logo Arcom" title="Arcom">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.arcom.fr/">Autorité de Régulation de la Communication audiovisuelle et numérique</a>
-                                </h4>
-                            </div>
+                </div>
+                <div class="fr-col-6 fr-col-lg-3">
+                    <div class="fr-tile fr-enlarge-link">
+                        <div class="fr-tile__img">
+                            <img src="{{ .Site.BaseURL }}/partenaires/dinum.svg" class="fr-responsive-img" alt="Logo DINUM" title="DINUM" style="max-width: 80px;">
+                        </div>
+                        <div class="fr-tile__body">
+                            <h4 class="fr-tile__title">
+                                <a class="fr-tile__link" href="https://www.numerique.gouv.fr/dinum/">Direction Interministérielle du Numérique</a>
+                            </h4>
                         </div>
                     </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/arcep.svg" class="fr-responsive-img" alt="Logo ARCEP" title="ARCEP">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.arcep.fr">Autorité de Régulation des Com&shy;munications Élec&shy;troniques et des Postes</a>
-                                </h4>
-                            </div>
+                </div>
+                <div class="fr-col-6 fr-col-lg-3">
+                    <div class="fr-tile fr-enlarge-link">
+                        <div class="fr-tile__img">
+                            <img src="{{ .Site.BaseURL }}/partenaires/inria.svg" class="fr-responsive-img" alt="Logo Inria" title="Inria">
                         </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/art.svg" class="fr-responsive-img" alt="Logo ART" title="ART">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.autorite-transports.fr/">Autorité de Régulation des Transports</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/cnil.svg" class="fr-responsive-img" alt="Logo CNIL" title="CNIL">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.cnil.fr/">Commission Nationale de l'Informatique et des Libertés</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/mef.svg" class="fr-responsive-img" alt="Logo DGCCRF" title="DGCCRF">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.economie.gouv.fr/dgccrf">Direction Générale de la Concurrence, de la Consommation et de la Répression des Fraudes</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/mef.svg" class="fr-responsive-img" alt="Logo MEFR" title="Ministère de l'Économie, des Finances et de la Relance">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.entreprises.gouv.fr/fr">Direction Générale des Entreprises</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/mte.svg" class="fr-responsive-img" alt="Logo MTE" title="Ministère de la Transition Écologique" style="max-width: 110px;">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.ecologie.gouv.fr/direction-generale-des-infrastructures-des-transports-et-mer-dgitm"> Direction Générale des Infrastructures, des Transports et de la Mer</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/mc.svg" class="fr-responsive-img" alt="Logo DGMIC" title="DGMIC">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.culture.gouv.fr/Nous-connaitre/Organisation/La-direction-generale-des-medias-et-des-industries-culturelles">Direction Générale des Médias et des Industries Culturelles</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/mef.svg" class="fr-responsive-img" alt="Logo MEFR" title="Ministère de l'Économie, des Finances et de la Relance">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.tresor.economie.gouv.fr/">Direction Générale du Trésor</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/dinum.svg" class="fr-responsive-img" alt="Logo DINUM" title="DINUM" style="max-width: 80px;">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.numerique.gouv.fr/dinum/">Direction Inter&shy;ministérielle du Numérique</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/inria.svg" class="fr-responsive-img" alt="Logo Inria" title="Inria">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.inria.fr/fr">Inria</a>
-                                </h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fr-col-6 fr-col-sm-4 fr-col-lg-3">
-                        <div class="fr-tile fr-enlarge-link">
-                            <div class="fr-tile__img">
-                                <img src="{{ .Site.BaseURL }}/partenaires/meae.svg" class="fr-responsive-img" alt="Logo MEAE" title="MEAE" style="max-width: 110px;">
-                            </div>
-                            <div class="fr-tile__body">
-                                <h4 class="fr-tile__title">
-                                    <a class="fr-tile__link" href="https://www.diplomatie.gouv.fr/fr/">Ministère de l'Europe et des Affaires Étrangères</a>
-                                </h4>
-                            </div>
+                        <div class="fr-tile__body">
+                            <h4 class="fr-tile__title">
+                                <a class="fr-tile__link" href="https://www.inria.fr/fr">Inria</a>
+                            </h4>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
 </main>
 {{ end }}
