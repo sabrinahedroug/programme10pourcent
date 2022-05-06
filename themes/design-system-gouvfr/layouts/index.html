@@ -3,55 +3,56 @@
     <div class="main">
         <h2 class="catch-phrase">
             Un programme de collaboration entre data scientists de l'Etat.
-            </h2>
+        </h2>
 
-        {{ range $index, $element := (where .Site.Pages "Section" "actualites")}}
-             {{ range where .Pages "Title" "!=" "actualites" }}
-                <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
-                    <div class="fr-card__body">
-                        <h4 class="fr-card__lead" style="margin-top: 0;">
-                            <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
-                        </h4>
-                        <div class="fr-highlight">
-                            <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
-                        </div>
-                        <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} {{ .CurrentSection.Title }}</p>
-                        <p class="fr-card__detail center">
-                            <a href="./actualites/{{ .Params.slug }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                                Lire la suite
-                            </a>
-                        </p>
+
+        {{ range $index, $element := (where .Site.Pages "Section" "actualites" ) }}
+            {{ range where .Pages "Title" "!=" "actualites" }}
+            <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
+                <div class="fr-card__body">
+                    <h4 class="fr-card__lead" style="margin-top: 0;">
+                        <a href="{{ .Permalink }}" class="fr-card__link">{{ .Title }}</a>
+                    </h4>
+                    <div class="fr-highlight">
+                        <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
                     </div>
-                    <div class="fr-card__img no-pointer">
-                        <img src="{{ .Site.BaseURL }}/img/visuel_programme_10_pourcent.png" title="illustration" alt="illustration" aria-hidden="true" role="presentation">
-                    </div>
+                    <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
+                    <p class="fr-card__detail center">
+                        <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                            Lire la suite
+                        </a>
+                    </p>
                 </div>
+                <div class="fr-card__img no-pointer">
+                    <img src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}"
+                        title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
+                </div>
+            </div>
             {{ end }}
         {{ end }}
 
 
-            <div class="fr-card fr-card--horizontal">
-                <div class="fr-card__body">
-                    <h4 class="fr-card__lead">
-                        <a href="./projets/" class="fr-card__link">
-                            Les projets
-                        </a>
-                    </h4>
-                    <div class="fr-highlight">
-                        <p class="fr-card__desc">
-
-                        </p>
-                    </div>
-                    <p class="fr-card__desc center">
-                        <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
-                            Découvrir les projets
-                        </a>
+        <div class="fr-card fr-card--horizontal">
+            <div class="fr-card__body">
+                <h4 class="fr-card__lead">
+                    <a href="./projets/" class="fr-card__link">
+                        Les projets
+                    </a>
+                </h4>
+                <div class="fr-highlight">
+                    <p class="fr-card__desc">
                     </p>
-            </div>
-                <div class="fr-card__img no-pointer">
-                    <img src="{{ .Site.BaseURL }}/img/undraw_projects.svg" title="Projets" alt="Illustration des projets" aria-hidden="true" role="presentation">
                 </div>
+                <p class="fr-card__desc center">
+                    <a href="./projets/" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
+                        Découvrir les projets
+                    </a>
+                </p>
             </div>
+            <div class="fr-card__img no-pointer">
+                <img src="{{ .Site.BaseURL }}/img/undraw_projects.svg" title="Projets" alt="Illustration des projets" aria-hidden="true" role="presentation">
+            </div>
+        </div>
 
 
 
@@ -96,6 +97,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+        </div>
+    </div>
 </main>
 {{ end }}
