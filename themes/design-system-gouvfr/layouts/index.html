@@ -6,7 +6,7 @@
         </h2>
 
 
-        {{ range $index, $element := (where .Site.Pages "Section" "actualites" ) }}
+        {{ range $index, $element := (where .Site.Pages "Section" "actualites" | first 2) }}
             {{ range where .Pages "Title" "!=" "actualites" }}
             <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
                 <div class="fr-card__body">
