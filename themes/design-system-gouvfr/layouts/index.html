@@ -7,6 +7,7 @@
 
 
         {{ range $index, $element := (where .Site.Pages "Section" "actualites") }}
+            {{ range where .Pages "Title" "!=" "actualites" }}
             <div class="fr-card fr-card--horizontal {{ if eq $index 0 }}l-row-reverse{{ end }}">
                 <div class="fr-card__body">
                     <h4 class="fr-card__lead" style="margin-top: 0;">
@@ -27,6 +28,7 @@
                         title="{{ .Title }}" alt="Illustration de l'article" aria-hidden="true" role="presentation">
                 </div>
             </div>
+            {{ end }}
         {{ end }}
 
 
