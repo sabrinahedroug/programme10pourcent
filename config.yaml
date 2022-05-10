@@ -19,7 +19,7 @@ defaultContentLanguage: fr
 languages:
   fr:
     languageCode: "fr-FR"
-    contentDir: content/french
+    contentDir: content/
     languageName: Français
     weight: 20
     menu:
