@@ -17,9 +17,13 @@
         </div>
     </nav>
     <h1>{{ partial "typography.html" .Title }}</h1>
+    <p class="fr-card__desc">Porté par <b>{{ .Params.Responsible | markdownify }}</b></p>
+
     <p class="fr-text--lead">
         {{ partial "typography.html" .Summary }}
     </p>
+
+
     {{ if (isset .Params "images") }}<p class="center"><img style="max-height: 400px; max-width: 100%;" src="{{ .Site.BaseURL }}{{ range .Params.images }}{{ . }}{{ end }}" alt="{{ .Title }}"/></p>{{ end }}
     <div class="justify">
         {{ partial "typography.html" (replace .Content .Summary "") }}
