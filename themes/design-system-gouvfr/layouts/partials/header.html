@@ -43,13 +43,6 @@
                             </a>
                         </li>
                     {{ end }}
-                    <li class="fr-nav__item fr-nav__item--lang">
-                        {{ if eq .Site.Language.Lang "fr" }}
-                            <a href="{{ .Site.BaseURL }}en/" class="fr-nav__link" target="_self" title="Afficher la version anglaise du site" lang="en">EN</a>
-                        {{ else }}
-                            <a href="{{ .Site.BaseURL }}fr/" class="fr-nav__link" target="_self" title="Afficher la version française du site" lang="fr">FR</a>
-                        {{ end }}
-                    </li>
                 </ul>
             </nav>
         </div>

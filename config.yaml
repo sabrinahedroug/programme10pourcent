@@ -17,51 +17,9 @@ module:
 
 defaultContentLanguage: fr
 languages:
-  en:
-    languageCode: "en-GB"
-    contentDir: content/english
-    languageName: English
-    weight: 10
-    menu:
-      main:
-        - identifier: "accueil"
-          name: "Home"
-          title: "Home"
-          url: ""
-          weight: 80
-
-        - identifier: "equipe"
-          name: "Who are we?"
-          title: "Who are we?"
-          url: "equipe/"
-          weight: 90
-
-        - identifier: "actualites"
-          name: "News"
-          title: "News"
-          url: "actualites/"
-          weight: 95
-
-        - identifier: "projets"
-          name: "Projects"
-          title: "Projects"
-          url: "projets/"
-          weight: 100
-
-        - identifier: "recrutement"
-          name: "We are hiring!"
-          title: "We are hiring!"
-          url: "recrutement/"
-          weight: 110
-
-        - identifier: "contact"
-          name: "Contact"
-          title: "Contact"
-          url: "contact/"
-          weight: 120
   fr:
     languageCode: "fr-FR"
-    contentDir: content/french
+    contentDir: content/
     languageName: Français
     weight: 20
     menu:
