@@ -3,3 +3,4 @@ public
 static/design-system-gouvfr
 *.swp
 .hugo_build.lock
+.DS_Store
