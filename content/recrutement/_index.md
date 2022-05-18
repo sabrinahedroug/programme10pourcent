@@ -3,87 +3,18 @@ title: "Participer"
 description: Participer au programme
 ---
 
-Vous avez envie de participer au programme, rejoignez nous.
+Vous avez envie de participer au programme ?  Rejoignez nous.
+Prenez connaissance des [projets]({{< ref "/projets" >}} "Projets") et répondez au [questionnaire](https://pad.incubateur.net/KC7UBE82Sjan3MLyefWUlA#) afin de nous faire part de vos voeux avant le 6 juin au soir. 
 
+## Comment fonctionne le processus d'affectation aux projets ?
 
-## Nos offres en cours
+### 1. L'expert de la donnée identifie les projets qui l'intéresse et les communique au Lab IA via le questionnaire 
+Le questionnaire est à remplir avant le 6 juin au soir. 
+Il doit en parallèle demander l'accord de son manager. 
 
-<div class="fr-grid-row fr-grid-row--gutters fr-grid-row--center recrutements fr-my-0">
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" titre="Développeur / Développeuse front" alt="Développeur / Développeuse front" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://passerelles.economie.gouv.fr/offre-de-emploi/emploi-developpeur-front-end-sen-peren-155-h-f_4165.aspx">Développeur / Développeuse <em lang="en">front</em></a></h4>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Data-scientist confirmé" alt="Data-scientist confirmé" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://passerelles.economie.gouv.fr/offre-de-emploi/emploi-data-scientist-confirme-sen-peren-106-h-f_5373.aspx"><em>Data-scientist</em> confirmé</a></h4>
-            </div>
-        </div>
-    </div>
-    <div class="fr-col-6 fr-col-lg-3">
-        <div class="fr-tile fr-enlarge-link">
-            <div class="fr-tile__img">
-                <img src="undraw_Data_re_80ws.svg" class="fr-responsive-img" title="Data-scientist confirmé" alt="Data-scientist confirmé" />
-            </div>
-            <div class="fr-tile__body">
-                <h4 class="fr-tile__title"><a class="fr-tile__link" href="https://passerelles.economie.gouv.fr/offre-de-emploi/emploi-data-scientist-confirme-sen-peren-156-h-f_5372.aspx"><em>Data-scientist</em> confirmé</a></h4>
-            </div>
-        </div>
-    </div>
-</div>
+### 2. Matching des candidats avec les projets 
+
+Le Lab IA, au regard de l'ensemble des réponses au questionnaire, proposera les 
 
 
 
-
-## Comment fonctionne le processus de recrutement ?
-
-### 1. Je postule
-
-<img style="max-width: 100%; width: 300px; display: block; margin: auto;" src="undraw_job_offers_kw5d.svg" alt="Illustration pour la section" title="Je postule">
-
-Afin d’accompagner la forte croissance du service, nous postons régulièrement des offres sur le site. Une d’entre elles vous intéresse ? N’hésitez plus et postulez sur [Passerelles][1] ou [Place de l'Emploi Public][2]. Les offres de stages sont disponibles sur [PASS][3].
-
-Le PEReN étant à la recherche de profils pointus, il peut arriver que vous ne remplissiez pas tous les prérequis exigés : ne vous autocensurez pas pour autant ! Après avoir postulé, vous recevrez un courriel de confirmation et notre équipe examinera votre candidature.
-
-
-[1]: https://passerelles.economie.gouv.fr
-[2]: https://place-emploi-public.gouv.fr/
-[3]: https://www.pass.fonction-publique.gouv.fr/
-
-
-### 2. Examen des candidatures
-
-<img style="max-width: 100%; width: 300px; display: block; margin: auto;" src="undraw_Resume_re_hkth.svg" alt="Illustration pour la section" title="Examen des candidatures">
-
-Nous considérons que si vous avez pris le temps de postuler, il est naturel de donner toutes ses chances à votre candidature. Elle sera examinée par au moins deux membres de l’équipe du PEReN, en fonction de la nature du profil recherché.
-
-Si votre candidature nous paraît en adéquation avec le poste, vous serez recontacté pour un entretien.
-
-
-
-### 3. Entretien
-
-<img style="max-width: 100%; width: 300px; display: block; margin: auto;" src="../equipe/undraw_interview_rmcf.svg" alt="Illustration pour la section" title="Entretien">
-
-Le but de l’entretien, qui a lieu avec les membres du PEReN qui ont évalué votre candidature, est de construire un échange avec vous. Cela nous permet d’apprendre à vous connaître, de comprendre les motivations qui vous ont poussé à postuler et de vérifier que vos compétences techniques correspondent bien à ce que nous recherchons.
-
-L’entretien n’est pas là pour vous piéger ! N’oubliez pas que les personnes avec qui vous échangez sont celles qui ont choisi votre candidature parce qu’elles pensent que vous avez le bon profil.
-
-Le meilleur conseil qu’on peut donc vous donner est : restez vous-même !
-
-
-
-### 4.	Quand est-ce-que j’aurai une réponse définitive ?
-
-<img style="max-width: 100%; width: 300px; display: block; margin: auto;" src="undraw_Hiring_re_yk5n.svg" alt="Illustration pour la section" title="Réponse définitive">
-
-Il peut arriver que la réponse tarde à venir, mais cela ne veut pas dire que votre candidature n’a pas été retenue. En effet, nous nous attachons à laisser des délais suffisants après publication d'une offre pour lui assurer une bonne publicité. Il est donc possible que vous ne receviez pas une réponse immédiatement, même si vous êtes le candidat parfait. A cela s’ajoute le fait qu’évaluer des candidatures avec rigueur est un long processus, surtout lorsqu’on en reçoit beaucoup. Soyez patient et nous essaierons de revenir au plus vite vers vous !
