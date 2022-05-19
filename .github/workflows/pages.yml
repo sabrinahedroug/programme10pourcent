@@ -62,3 +62,4 @@ jobs:
           ci_branch_name: pages
           git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
+          git_push_flags: "--force"
