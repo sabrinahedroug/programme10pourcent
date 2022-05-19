@@ -47,6 +47,6 @@ jobs:
         env:
           GIT_SSH_COMMAND: 'ssh -vvv'
         with:
-          branch: master
+          branch: pages
           git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
