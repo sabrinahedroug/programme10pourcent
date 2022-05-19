@@ -1,7 +1,7 @@
 ---
 title: "Données personnelles et cookies"
 ---
-Le site 10pourcent.etalab.studio.fr s'engage à ce que la collecte et le traitement de vos données, effectués à partir de 10pourcent.etalab.studio, soient conformes au Règlement Général sur la Protection des Données (RGPD) et à la [loi Informatique et Libertés][1].
+Le site [10pourcent.etalab.studio.fr](https://www.10pourcent.etalab.studio.fr) s'engage à ce que la collecte et le traitement de vos données, effectués à partir de 10pourcent.etalab.studio, soient conformes au Règlement Général sur la Protection des Données (RGPD) et à la [loi Informatique et Libertés][1].
 
 
 [1]: https://www.cnil.fr/fr/la-loi-informatique-et-libertes
