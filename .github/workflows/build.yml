@@ -45,11 +45,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
+          fetch-depth: 0
           ref: pages
 
       - name: Deploy
         uses: dokku/github-action@master
         with:
+          ci_commit: `git rev-parse pages`
           ci_branch_name: pages
           git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
