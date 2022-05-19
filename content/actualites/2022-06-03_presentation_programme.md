@@ -65,5 +65,5 @@ Plusieurs temps forts rythmeront le travail de la communauté des experts, en pr
 Entre ces différents temps, un travail au fil de l’eau se déroulera au sein des équipes via un outil collaboratif dédié sur le site internet. Un accompagnement sera mis à disposition par l’équipe du Lab IA. 
 
 ### La restitution des projets
-Un évènement final sera dédié à valoriser les projets interministériels issus du programme 10% par thématique afin de valoriser les ministères contributeurs  qui remettront un badge data « d’intérêt général » à chaque expert ou une certification qu’ils pourront valoriser au cours de leur parcours professionnel au sein des ministères. 
+Un événement final sera dédié à valoriser les projets interministériels issus du programme 10% par thématique afin de valoriser les ministères contributeurs  qui remettront un badge data « d’intérêt général » à chaque expert ou une certification qu’ils pourront valoriser au cours de leur parcours professionnel au sein des ministères. 
 
