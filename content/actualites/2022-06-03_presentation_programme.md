@@ -1,7 +1,7 @@
 ---
 title: "Lancement du programme"
 slug: lancement-programme
-date: 2022-06-03T13:00:00+01:00
+date: 2022-05-03T13:00:00+01:00
 summary: En 2022, la DINUM lance le programme 10%.
 images: 
     - /img/visuel_programme_10_pourcent.png
