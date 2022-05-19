@@ -2,7 +2,7 @@
 title: "Scrapping"
 date: 2022-05-18T13:00:00+01:00
 summary: a
-responsible: Alexis XX
+responsible: Alexis Eidelman
 images: 
 - /img/atelier_ideation.png
 ---
