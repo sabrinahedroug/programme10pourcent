@@ -3,9 +3,7 @@ name: Build Pages
 on:
   push:
     branches:
-      # FIXME: change to master
-      - add-ci  # Set a branch to deploy
-    pull-request:
+      - master  # Set a branch to deploy
 
 jobs:
   deploy:
@@ -13,6 +11,11 @@ jobs:
     concurrency:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.4.0
+        with:
+          access_token: ${{ github.token }}
+
       - uses: actions/checkout@v2
         with:
           submodules: true  # Fetch Hugo themes (true OR recursive)
@@ -24,19 +27,26 @@ jobs:
           hugo-version: '0.91.2'
           # extended: true
 
-      - name: Prepare build
+      - name: Build
         run: |
           cd themes/design-system-gouvfr && npm install && cd ../../
           cp -r themes/design-system-gouvfr/node_modules/@gouvfr/dsfr/dist/ ./static/design-system-gouvfr
+          hugo --minify -b https://10pourcent.etalab.studio
 
-      - name: Build
-        run: hugo --minify -b https://10pourcent.etalab.studio
-
-      - name: Deploy
+      - name: Update static branch
         uses: peaceiris/actions-gh-pages@v3
-        # FIXME: change to main
-        if: ${{ github.ref == 'refs/heads/add-ci' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: pages
+
+      - name: Deploy
+        uses: dokku/github-action@master
+        if: ${{ github.ref == 'refs/heads/master' }}
+        env:
+          GIT_SSH_COMMAND: 'ssh -vvv'
+        with:
+          branch: master
+          git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
+          ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
