@@ -50,12 +50,13 @@ jobs:
 
       - name: Compute latest commit
         id: vars
-        run: echo ::set-output name=ci_commit::$(echo toto)
+        run: echo ::set-output name=ci_commit::$(git rev-parse pages)
 
       - name: Deploy
         uses: dokku/github-action@master
         with:
-          ci_commit: ${{ steps.vars.ci_commit }}
+          # ci_commit: ${{ steps.vars.ci_commit }}
+          ci_commit: 09d64b5c0721d324488becf2c68ea661e682a4fb
           ci_branch_name: pages
           git_remote_url: 'ssh://dokku@app.etalab.studio:22/10pourcent'
           ssh_private_key: ${{ secrets.DOKKU_DEPLOYMENT_SSH_PRIVATE_KEY }}
