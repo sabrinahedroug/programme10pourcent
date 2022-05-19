@@ -50,7 +50,7 @@ jobs:
 
       - name: Compute latest commit
         id: vars
-        run: echo ::set-output name=ci_commit::$(git rev-parse pages)
+        run: echo ::set-output name=ci_commit::$(echo toto)
 
       - name: Deploy
         uses: dokku/github-action@master
