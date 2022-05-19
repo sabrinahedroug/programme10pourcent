@@ -4,3 +4,5 @@ static/design-system-gouvfr
 *.swp
 .hugo_build.lock
 .DS_Store
+themes/design-system-gouvfr/package-lock.json
+

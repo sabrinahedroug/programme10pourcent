@@ -16,6 +16,9 @@
                     <div class="fr-highlight">
                         <p class="fr-card__desc">{{ .Params.Summary | markdownify }}</p>
                     </div>
+                    <div class="fr-highlight">
+                        <p class="fr-card__desc">{{ .Params.Responsible | markdownify }}</p>
+                    </div>
                     <p class="fr-card__detail">{{ .Date.Format "02/01/2006" }} / {{ .CurrentSection.Title }}</p>
                     <p class="fr-card__detail center">
                         <a href="{{ .Permalink }}" class="fr-btn fr-fi-arrow-right-line fr-btn--icon-right">
