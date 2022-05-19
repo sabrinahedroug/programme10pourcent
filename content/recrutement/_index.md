@@ -9,7 +9,7 @@ Prenez connaissance des [projets]({{< ref "/projets" >}} "Projets") et répondez
 ### Comment fonctionne le processus d'affectation aux projets ?
 
 #### 1. L'expert de la donnée identifie les projets qui l'intéresse et les communique au Lab IA via le questionnaire 
-Le questionnaire est à remplir avant le 6 juin au soir. 
+Le [questionnaire](https://pad.incubateur.net/KC7UBE82Sjan3MLyefWUlA#)  est à remplir avant le 6 juin au soir. 
 Il doit en parallèle demander l'accord de son manager. 
 
 #### 2. Matching des candidats avec les projets 
