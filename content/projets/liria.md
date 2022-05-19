@@ -6,13 +6,6 @@ images:
 - /img/atelier_ideation.png
 ---
 
-#### Porteur du projet 
-Kim Montalibet, Lab IA d'Etalab (DINUM)
-
-#### La problématique identifiée:
-Les administrations ont régulièrement besoin d’exploiter en masse des documents administratifs sous des formats non directement exploitables (PDF scannés ou numérisés, images, etc.). 
-L’information contenue dans ces documents, pour être exploitée, doit passer par une étape d'extraction et de structuration de l’information, qui est vite très chronophage si elle doit être réalisée à la main.
-
 #### Les défis data sciences associés :
 - OCR : de 3 types tapuscrit, manuscrit, tableau 
 - Extraction d'informations, plusieurs types de problématiques : 
