@@ -23,10 +23,10 @@ Le suivi éditorial et graphique est assuré au quotidien par la mission Communi
 
 ### Code source du site
 
-Le code source du site est disponible sur [Github](https://github.com/etalab-ia/programme10pourcent).
+Le code source du site est disponible sur [Github](https://github.com/etalab-ia/programme10pourcent), et s'inspire (_github fork_) du site peren.gouv.fr
 
-### Propriété intellectuelle et liens vers numerique.gouv.fr
+### Propriété intellectuelle et liens vers 10pourcent.etalab.studio
 
-Tout site public ou privé est autorisé à établir, sans autorisation préalable, un lien (y compris profond) vers les informations diffusées sur numerique.gouv.fr<br>
+Tout site public ou privé est autorisé à établir, sans autorisation préalable, un lien (y compris profond) vers les informations diffusées sur 10pourcent.etalab.studio<br>
 Sauf mention de propriété intellectuelle détenue par des tiers (notamment un crédit sur certaines images), les contenus de ce site sont proposés sous licence ouverte.<br>
-La mise en place de liens vers nos contenus et documents est cependant est à privilégier par rapport à la reproduction sur un site tiers. La mention explicite du site source numerique.gouv.fr est recommandée.<br>
+La mise en place de liens vers nos contenus et documents est cependant est à privilégier par rapport à la reproduction sur un site tiers. La mention explicite du site source 10pourcent.etalab.studio est recommandée.<br>
